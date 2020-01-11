@@ -1,30 +1,32 @@
 {
-    "name": "therali/bootform",
-    "description": "Laravel 6 form wrappers for Bootstrap 3.",
+    "name": "therali/boot-form",
+    "description": "Laravel 6 form wrappers for Bootstrap.",
     "keywords": ["laravel", "form", "bootstrap"],
     "license": "MIT",
+    "support": {
+        "email": "therali@ikatic.com"
+      },
     "authors": [
-        {
-            "name": "Ali THERA",
-            "email": "therali@ikatic.com"
-        }
-    ],
+     {
+          "name": "Ali THERA",
+          "email": "therali@ikatic.com"
+      }
+     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=5.5.9"
         "illuminate/config": "~5.0 | ~6.0",
         "illuminate/session": "~5.0 | ~6.0",
         "illuminate/support": "~5.0 | ~6.0",
         "laravelcollective/html": "~5.0 | ~6.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.6",
-        "mockery/mockery": "0.9.*"
+        
     },
     "autoload": {
         "psr-4": {
-            "Therali\\BootForm\\": "src/"
+          "Therali\\BootForm\\": "src/"
         }
-    },
+      },
     "extra": {
         "laravel": {
             "providers": [
