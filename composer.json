@@ -5,37 +5,23 @@
     "license": "MIT",
     "support": {
         "email": "therali@ikatic.com"
-      },
+     },
     "authors": [
-     {
-          "name": "Ali THERA",
-          "email": "therali@ikatic.com"
-      }
-     ],
+        {
+            "name": "Ali THERA",
+            "email": "therali@ikatic.com"
+        }
+    ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/config": "~5.0 | ~6.0",
-        "illuminate/session": "~5.0 | ~6.0",
-        "illuminate/support": "~5.0 | ~6.0",
-        "laravelcollective/html": "~5.0 | ~6.0"
+        "php": ">=5.4.0"
     },
     "require-dev": {
-        
     },
     "autoload": {
         "psr-4": {
-          "Therali\\BootForm\\": "src/"
-        }
-      },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Therali\\BootForm\\BootFormFormServiceProvider"
-            ],
-            "aliases": {
-                "BootForm": "Therali\\BootForm\\Facades\\BootFormForm"
-            }
+            "Therali\\BootForm\\": "src/"
         }
     },
-  "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
