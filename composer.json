@@ -1,5 +1,5 @@
 {
-    "name": "therali/boot-form",
+    "name": "therali/bootform",
     "description": "Laravel 6 form wrappers for Bootstrap.",
     "keywords": ["laravel", "form", "bootstrap"],
     "license": "MIT",
@@ -22,6 +22,13 @@
             "Therali\\BootForm\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
 }
