@@ -14,10 +14,6 @@
      ],
     "require": {
         "php": ">=5.5.9"
-        "illuminate/config": "~5.0 | ~6.0",
-        "illuminate/session": "~5.0 | ~6.0",
-        "illuminate/support": "~5.0 | ~6.0",
-        "laravelcollective/html": "~5.0 | ~6.0"
     },
     "require-dev": {
         
